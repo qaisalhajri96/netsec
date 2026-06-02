@@ -179,8 +179,6 @@ Each factor is independent of the other(s).
 
 ## Requirements
 
-Prior to 12-Nov-2025, the CA SHALL adhere to these Requirements or Version 1.7 of the Network and Certificate System Security Requirements. Effective 12-Nov-2025, the CA SHALL adhere to these Requirements.
-
 ### 1. CA Infrastructure and Network Boundary Control Configuration
 
 The CA MUST define an inventory of its CA Infrastructure.
@@ -460,11 +458,7 @@ The CA SHOULD ensure incident response plans minimally include:
 
 The CA MUST implement the policies and procedures in [Section 4](#4-vulnerability-management) for identifying, evaluating, and resolving security vulnerabilities.
 
-These policies and procedures MUST apply to all Certificate Systems.
-
-These policies and procedures SHOULD apply to Security Support Systems and Network Boundary Controls.
-
-Effective 15-Apr-2026, these policies and procedures MUST apply to Security Support Systems and Network Boundary Controls.
+These policies and procedures MUST apply to all Certificate Systems, Security Support Systems and Network Boundary Controls.
 
 #### 4.1 Intrusion Detection and Prevention
 
