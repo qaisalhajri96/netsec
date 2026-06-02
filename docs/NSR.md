@@ -272,7 +272,7 @@ The CA MUST ensure that all changes are completed in accordance with such a chan
 
 ### 3. Access Control
 
-Within this Section 2, references to "access" include all physical and logical access, unless otherwise specified.
+Within this Section 3, references to "access" include all physical and logical access, unless otherwise specified.
 
 #### 3.1 Trusted roles
 
@@ -350,7 +350,7 @@ The CA MUST enforce the use of Multi-Party Control for physical access to any Ro
 The CA SHOULD ensure passwords used as authentication credentials for accounts on CA Infrastructure, Network Boundary Controls, or Workstations are generated and managed in accordance with NIST SP 800-63B Revision 4 Section 3.1.1. Access to shared credentials MUST:
 
 * be limited to personnel based on the Principle of Least Privilege; and
-* comply with section 2.2.1.2.
+* comply with [Section 3.2.1.2](#3212).
 
 ##### 3.2.6
 
