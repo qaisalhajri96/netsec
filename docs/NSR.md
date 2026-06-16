@@ -1,11 +1,11 @@
 ---
 title: Network and Certificate System Security Requirements
-subtitle: Version 2.0.5
+subtitle: Version 2.0.6
 author:
   - CA/Browser Forum
-date: 09 July 2025
+date: xx June 2026
 copyright: |
-  Copyright 2025 CA/Browser Forum
+  Copyright 2026 CA/Browser Forum
 
   This work is licensed under the Creative Commons Attribution 4.0 International license.
 ---
@@ -59,6 +59,7 @@ The following are outcomes that this document seeks to achieve:
 | 2.0.3 | NS-006 | Fix 1.2.2 encrypted connections scoping | 13-Nov-2024 | 13-Dec-2024 |
 | 2.0.4 | NS-007 | Extend deadline to implement NSRv2 | 02-Feb-2025 | 07-Mar-2025 |
 | 2.0.5 | NS-008 | Updates to CA Infrastructure Scope, Trusted Roles, Systems' Applicability, and various other improvements | 03-Jun-2025 | 03-Jul-2025 |
+| 2.0.6 | NS-010 | Introduce section for CA Infrastructure Inventory and renumber subsequent sections, remove expired effective dates, and update NIST SP 800-63B reference | xx-Jun-2026 | xx-Jul-2026 |
 
 \* Effective Date based on completion of 30‐day IPR review without filing of any Exclusion Notices.
 
@@ -347,7 +348,7 @@ The CA MUST enforce the use of Multi-Party Control for physical access to any Ro
 
 ##### 3.2.5
 
-The CA SHOULD ensure passwords used as authentication credentials for accounts on CA Infrastructure, Network Boundary Controls, or Workstations are generated and managed in accordance with NIST SP 800-63B Revision 4 Section 3.1.1. Access to shared credentials MUST:
+The CA SHOULD ensure passwords used as authentication credentials for accounts on CA Infrastructure, Network Boundary Controls, or Workstations are generated and managed in accordance with [NIST SP 800-63B Revision 4 Section A](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-63B-4.pdf#page=87). Access to shared credentials MUST:
 
 * be limited to personnel based on the Principle of Least Privilege; and
 * comply with [Section 3.2.1.2](#3212).
